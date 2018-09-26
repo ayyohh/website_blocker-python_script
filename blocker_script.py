@@ -23,13 +23,16 @@ while True:
 
 
     else:
+        # outside our work hours, the website should become avaiable again
         with open(hosts_path, 'r+') as file:
             content=file.readlines()
             file.seek(0)
+            # after the hosts file opens, we iterate through every line
+            # every line that doesn't have a website in it will be rewritten over the current file
             for line in content:
                 if not any(website in line for website in website_list):
                     file.write(line)
             file.truncate()
             print(content)
         print('Play harder...')
-    time.sleep(5)
+    time.sleep(15)
