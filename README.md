@@ -20,7 +20,7 @@ this brings up the crontab editor in vim
 type in:
 
 
-15 * * * * /Users/<YourUsername>/website_blocker/website_blocker-python_script/blocker_script.py
+15 * * * * /Users/YourUsername/website_blocker/website_blocker-python_script/blocker_script.py
   
 (the numbers/* in front specify when the script will run and are: minutes, hours, day, month, day of week, respectively)
 
