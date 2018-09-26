@@ -31,7 +31,7 @@ type:
 :wq (Enter)
 
 
-This saves the crontab file.
+This saves the crontab file and exits vim.
 
 type:
 
