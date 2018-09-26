@@ -35,7 +35,7 @@ This saves the crontab file and exits vim.
 
 type:
 
-crontab -l   Your new script should show up.
+crontab -l   (Your new script should show up)
 
 RESTART Computer for changes to take effect.
 
