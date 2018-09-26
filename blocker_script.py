@@ -3,10 +3,12 @@ from datetime import datetime as dt
 
 hosts_path='/etc/hosts'
 redirect='127.0.0.1'
+# EDIT THE WEBSITE LIST TO SUIT YOUR NEEDS
 website_list=['www.facebook.com', 'facebook.com']
 
 while True:
     # if time between 8am and 6pm, website blocker commences
+    # EDIT TIME TO YOUR NEEDS
     if dt(dt.now().year,dt.now().month,dt.now().day,8) < dt.now() < dt(dt.now().year,dt.now().month,dt.now().day,18):
         print('Work hard...')
 
