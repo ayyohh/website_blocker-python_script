@@ -20,14 +20,14 @@ this brings up the crontab editor in vim
 type in:
 
 
-30 * * * * /Users/<YourUsername>/website_blocker/website_blocker-python_script/blocker_script.py
+15 * * * * /Users/<YourUsername>/website_blocker/website_blocker-python_script/blocker_script.py
   
 (the numbers/* in front specify when the script will run and are: minutes, hours, day, month, day of week, respectively)
 
 
 type:
 
-
+^C 
 :wq (Enter)
 
 
@@ -36,4 +36,8 @@ This saves the crontab file and exits vim.
 type:
 
 crontab -l   Your new script should show up.
+
+RESTART Computer for changes to take effect.
+
+Any suggestions or improvements please reach out or throw me a pull request!
 
